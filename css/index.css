@@ -1,0 +1,476 @@
+/*页首部分*/
+header {
+    width: 100%;
+    height: 545px;
+    padding-top: 20px;
+    background: url("../images/车展_02.jpg") no-repeat;
+}
+header .logo {
+    width: 171px;
+    height: 68px;
+    background: url("../images/车展_03.png") no-repeat;
+}
+header .title {
+    width: 629px;
+    height: 213px;
+    background: url("../images/车展_07.png") no-repeat;
+    display: inline-block;
+    font-size: 0;
+    margin-top: 90px;
+}
+header .car {
+    width: 457px;
+    height: 235px;
+    background: url("../images/车展_09.png") no-repeat;
+    display: inline-block;
+    font-size: 0;
+    transform: translate(80px,33px);
+}
+header .code {
+    width: 113px;
+    height: 108px;
+    background: url("../images/车展_14.png") no-repeat;
+    position: relative;
+    left: 918px;
+    top:40px;
+    display: inline-block;
+}
+header .code-content {
+    position: relative;
+    left: 1040px;
+    top: -63px;
+    width: 140px;
+}
+header .code-content p:first-child {
+    font-size: 18px;
+    color: #333333;
+}
+header .code-content p:last-child {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #5a5a5a;
+}
+    /*页首----导航栏部分*/
+header nav {
+    width: 100%;
+    height: 76px;
+    background: url("../images/menu_bg.png") no-repeat;
+    position: relative;
+    top: -36px;
+}
+header nav .w {
+    position: relative;
+    height: 100%;
+}
+header nav ul {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 840px;
+    height: 18px;
+    transform: translate(-50%,-50%);
+    font-size: 0;
+}
+header nav li {
+    width: 138px;
+    padding-left: 30px;
+    display: inline-block;
+    background: url("../images/menu_subfield.png") right -1px no-repeat;
+    background-size: 31px 23px;
+}
+header nav li.last-li {
+    background: none;
+}
+header nav li a {
+    font-size: 18px;
+    color: #fff;
+    line-height: 18px;
+}
+header nav .curr a  {
+    color: orange;
+}
+header nav li a:hover {
+    color: orange;
+}
+/*主体内容模块*/
+.content {
+    width: 100%;
+    background-image: url("../images/bg.png"),url("../images/bg_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    padding-top: 23px;
+}
+.content section .title {
+    margin: 30px 0;
+}
+    /*group-1-聚焦车展模块*/
+.content .group1 {
+    width: 100%;
+    position: relative;
+}
+.content .group1 i {
+    display: inline-block;
+    font-size: 0;
+    width: 473px;
+    height: 41px;
+    transform: translateX(-30px);
+    background: url("../images/group_1/车展_03.png") no-repeat;
+}
+.content .group1 h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #333;
+    padding: 23px 0;
+}
+.content .group1 ul {
+    display: inline-block;
+    font-size: 0;
+}
+.content .group1 ul li {
+    width: 370px;
+    margin-bottom: 33px;
+    padding-left: 33px;
+    background: url("../images/group_1/mark1.png") left 5px no-repeat;
+    background-size: 10px 11px;
+}
+.content .group1 ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #5a5a5a;
+}
+.content .group1 ul:first-of-type {
+    margin-right: 25px;
+}
+.content .group1 ul:first-of-type li:nth-child(2) {
+    background: url("../images/group_1/mark2.png") left 5px no-repeat;
+}
+.content .group1 .right {
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+.content .group1 .slider .left_btn {
+    float: left;
+    margin-right: 50px;
+}
+.content .group1 .slider .right_btn {
+    float: right;
+    margin-left: 50px;
+}
+.content .group1 .slider .left_btn,
+.content .group1 .slider .right_btn {
+    width: 59px;
+    height: 199px;
+}
+.content .group1 .slider .left_btn img,
+.content .group1 .slider .right_btn img {
+    width: 59px;
+    height: 199px;
+}
+.content .group1 .slider .imgsA {
+    display: inline-block;
+    font-size: 0;
+    width: 300px;
+    height: 200px;
+}
+.content .group1 .slider .imgsA img{
+    width: 100%;
+    height: 100%;
+}
+.content .group1 .slider .middleA{
+    margin: 0 37px;
+}
+/*group-2-车展资讯*/
+.content .group2 dl {
+    position: relative;
+}
+.content .group2 dl dt {
+    font-size: 24px;
+    line-height: 24px;
+    color: #010101;
+    position: absolute;
+    left: 360px;
+    top:20px;
+
+}
+.content .group2 .imgDd {
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+}
+.content .group2 .first-dd {
+    margin-top: 0;
+}
+.content .group2 dl dd:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 28px;
+    color: #5a5a5a;
+    position: absolute;
+    left: 360px;
+    top:64px;
+}
+.content .group2 dl dd:last-child {
+    font-size: 12px;
+    line-height: 12px;
+    color: #5a5a5a;
+    position: absolute;
+    left: 360px;
+    top:171px;
+}
+.content .group2 dl dd:last-child span:last-child {
+    margin-left: 300px;
+}
+.content .group2 dl {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f3d2cb;
+}
+.content .group2 dl:nth-of-type(2) dt,
+.content .group2 dl:nth-of-type(2) dd
+{
+    color: #fd552e;
+}
+/*group-3-新车快照模块*/
+.content .group3 {
+    position: relative;
+    height: 1000px;
+    /* background: blue; */
+}
+.content .group3 .top-img {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content .group3 .title {
+    position: absolute;
+    left: 0;
+    top: 58px;
+}
+.content .group3 .floor1 {
+    width: 100%;
+    position: absolute;
+    top: 173px;
+}
+.content .group3 .floor1 .left,
+.content .group3 .floor1 .middle,
+.content .group3 .floor1 .right {
+    float: left;
+}
+.content .group3 .floor1 .left,
+.content .group3 .floor1 .right
+{
+    width: 282px;
+}
+.content .group3 .floor1 .left a,
+.content .group3 .floor1 .right a{
+    width: 100%;
+    height: 189px;
+}
+.content .group3 .floor1 .left img,
+.content .group3 .floor1 .right img{
+    width: 100%;
+    height: 100%;
+}
+.content .group3 .floor1 .left a:first-of-type,
+.content .group3 .floor1 .right a:first-of-type{
+    margin-bottom: 20px;
+}
+.content .group3 .floor1 .middle {
+    width: 601px;
+    margin: 0 17px;
+}
+.content .group3 .floor1 .middle a {
+    width: 100%;
+    height: 400px;
+}
+.content .group3 .floor1 .middle img {
+    width: 100%;
+}
+    /*group-3-新车快照模块--图片上的字*/
+.content .group3 .floor a {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    overflow: hidden;
+}
+.content .group3 .floor a::after {
+    display: block;
+    content: '凯迪拉克CT6';
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    background: rgba(212, 212, 212, 0.68);
+    position: absolute;
+    bottom: -42px;
+    text-align: center;
+    color: #333333;
+    transition: bottom 1s;
+}
+.content .group3 .floor a:hover::after {
+    bottom: 0;
+}
+    /*group-3-新车快照模块--floor2*/
+.content .group3 .floor2 {
+    width: 100%;
+    position: absolute;
+    top: 600px;
+}
+.content .group3 .floor2 .left,
+.content .group3 .floor2 .middle,
+.content .group3 .floor2 .right {
+    float: left;
+}
+.content .group3 .floor2 .left {
+    width: 601px;
+}
+.content .group3 .floor2 .left a{
+    width: 100%;
+    height: 400px;
+}
+.content .group3 .floor2 .middle,
+.content .group3 .floor2 .right
+{
+    width: 282px;
+}
+.content .group3 .floor2 .middle a,
+.content .group3 .floor2 .right a
+{
+    width: 100%;
+    height: 189px;
+}
+.content .group3 .floor2 .left a img,
+.content .group3 .floor2 .middle a img,
+.content .group3 .floor2 .right a img
+{
+    width: 100%;
+    height: 100%;
+}
+.content .group3 .floor2 .middle {
+    margin: 0 17px;
+}
+.content .group3 .floor2 .middle a:first-child,
+.content .group3 .floor2 .right a:first-child {
+    margin-bottom: 20px;
+}
+/*group--4--新能源专栏模块*/
+.content .group4 {
+    width: 100%;
+    height: 305px;
+}
+.content .group4 .imgsbox a {
+    display: inline-block;
+    font-size: 0;
+    width: 282px;
+    height: 188px;
+    margin-right: 21px;
+    position: relative;
+}
+.content .group4 .imgsbox {
+    margin-right: -24px;
+}
+.content .group4 .imgsbox a::after {
+    display: block;
+    content: '《美人鱼》里那些豪车';
+    width: 282px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    background: rgba(33, 150, 243, 0.68);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.content .group4 .imgsbox a:hover::after {
+    opacity:1;
+}
+/*group--5--性感车模模块*/
+.content .group5 {
+    width: 100%;
+    position: relative;
+    padding-bottom: 24px;
+}
+.content .group5 i {
+    background: url("../images/group_5/group5_more.png") no-repeat;
+    display: inline-block;
+    font-size: 0;
+    width: 178px;
+    height: 40px;
+    position: absolute;
+    left: 337px;
+    top: 46px;
+}
+.content .group5 .imgsbox a {
+    display: inline-block;
+    font-size: 0;
+    width: 282px;
+    height: 430px;
+    margin-right: 21px;
+    position: relative;
+}
+.content .group5 .imgsbox {
+    margin-right: -24px;
+}
+.content .group5 .imgsbox a::after {
+    display: block;
+    content: '凯迪拉特CT6';
+    width: 282px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 18px;
+    background: rgba(212, 212, 212, 0.68);
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.content .group5 .imgsbox a:hover::after {
+    opacity:1;
+}
+/*页尾模块*/
+footer {
+    width: 100%;
+    height: 156px;
+    background: url("../images/foot_bg.png");
+}
+footer ul {
+    width: 528px;
+    height: 25px;
+    position: relative;
+    top:38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer ul li {
+    display: inline-block;
+    font-size: 0;
+}
+footer ul li:hover {
+    border-bottom: 1px solid #fff;
+}
+footer ul li:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+footer ul li a {
+    font-size: 18px;
+    color: #fff;
+    padding: 0 13px;
+}
+footer p {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+footer p:first-of-type {
+    margin-top: 54px;
+}
+footer p:last-of-type {
+    margin-top: 14px;
+}
+
